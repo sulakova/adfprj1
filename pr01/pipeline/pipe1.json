@@ -1,0 +1,24 @@
+{
+	"name": "pipe1",
+	"properties": {
+		"activities": [
+			{
+				"name": "SV1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "a",
+					"value": "b"
+				}
+			}
+		],
+		"variables": {
+			"a": {
+				"type": "String",
+				"defaultValue": "\"a\""
+			}
+		},
+		"annotations": []
+	}
+}
