@@ -1,0 +1,30 @@
+{
+	"name": "powerquery skuska",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "v1",
+					"value": "som tu"
+				}
+			}
+		],
+		"variables": {
+			"v1": {
+				"type": "Array",
+				"defaultValue": [
+					"1",
+					"2",
+					"3"
+				]
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2021-03-03T11:13:49Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
